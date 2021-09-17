@@ -556,16 +556,12 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mt-7 {
   margin-top: 1.75rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .flex {
@@ -584,8 +580,12 @@ video {
   height: 100%;
 }
 
-.max-h-full {
-  max-height: 100%;
+.h-screen {
+  height: 100vh;
+}
+
+.max-h-screen {
+  max-height: 100vh;
 }
 
 .w-40 {
