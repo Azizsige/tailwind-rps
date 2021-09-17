@@ -580,12 +580,8 @@ video {
   height: 100%;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.max-h-screen {
-  max-height: 100vh;
+.max-h-full {
+  max-height: 100%;
 }
 
 .w-40 {
@@ -688,6 +684,11 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
 }
 
 .border-green-700 {
