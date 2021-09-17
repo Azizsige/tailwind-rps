@@ -576,12 +576,12 @@ video {
   height: 3.5rem;
 }
 
-.h-4\/5 {
-  height: 80%;
-}
-
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .max-h-screen {
@@ -688,16 +688,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-.border-red-100 {
-  --tw-border-opacity: 1;
-  border-color: rgba(254, 226, 226, var(--tw-border-opacity));
-}
-
-.border-red-600 {
-  --tw-border-opacity: 1;
-  border-color: rgba(220, 38, 38, var(--tw-border-opacity));
 }
 
 .border-green-700 {
