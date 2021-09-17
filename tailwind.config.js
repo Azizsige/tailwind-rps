@@ -5,7 +5,14 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif']
+      },
+      colors: {
+        'primary': '#9C27B0'
+      }
+    },
   },
   variants: {
     extend: {},
