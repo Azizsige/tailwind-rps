@@ -13,10 +13,10 @@
     />
     <title>Rock Papper Scissor Game</title>
   </head>
-  <body class="bg-primary">
+  <body class="relative">
     <div class="container-content max-h-screen">
       <div class="content">
-        <div class="content-starter h-screen text-white flex flex-col justify-between items-center font-roboto">
+        <div class="content-starter bg-primary h-screen text-white flex flex-col justify-between items-center font-roboto">
           <div class="content-copyright text-sm mt-7">
             <p>Web Vectors by Issara Jarukitjaroon at Vecteezy</p>
           </div>
@@ -24,10 +24,30 @@
             <p>Rock <br>/ paper / <br>  scissors</p>
           </div>
           <div class="content-thumb">
-            <img class="w-40" src="./assets/paper.png" alt="" />
+            <img class="w-40" src="./assets/paper-start.png" alt="" />
           </div>
           <div class="content-btn w-9/12 h-14 bg-white text-black text-center rounded-md mb-5 font-light">
             <button class="flex justify-center items-center w-full h-full text-2xl" type="submit">START</button>
+          </div>
+        </div>
+
+        <div class="content-play  bg-white w-full top-0 absolute h-screen text-black flex flex-col justify-between items-center font-roboto">
+          <div class="content-play__back text-sm mt-7 self-start ml-5">
+            <img class="w-4" src="./assets/back.svg" alt="" srcset="">
+          </div>
+          <div class="content-heading text-6xl text-center font-thin -mt-32">
+            <img class="w-40" src="./assets/paper-thumb.png" alt="" srcset="">
+          </div>
+          <div class="content-play__heading -mt-16">
+           <p class="font-bold text-5xl">Let’s play!</p>
+          </div>
+          <div class="content-play__user w-9/12 h-14 bg-white text-black text-center rounded-md mb-24 font-light">
+            <p class="font-light text-2xl -mt-10 mb-5">pick an option:</p>
+            <div class="user-select flex justify-between">
+              <img src="./assets/thumb-paper.svg" alt="" srcset="">
+              <img src="./assets/thumb-rock.svg" alt="" srcset="">
+              <img src="./assets/thumb-scissors.svg" alt="" srcset="">
+            </div>
           </div>
         </div>
       </div>
