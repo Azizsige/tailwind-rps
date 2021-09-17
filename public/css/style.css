@@ -584,6 +584,10 @@ video {
   height: 100%;
 }
 
+.min-h-full {
+  min-height: 100%;
+}
+
 .w-56 {
   width: 14rem;
 }
