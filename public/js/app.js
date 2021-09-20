@@ -30,15 +30,9 @@ selecteds.forEach(selected => {
   })
 })
 
-function onLoad() {
-  document.addEventListener("deviceready", onDeviceReady, false);
-}
-function onDeviceReady() {
-  // Register the event listener
-  document.addEventListener("backbutton", onBackKeyDown, false);
-}
+document.addEventListener("backbutton", onBackButton);
 
-function onBackKeyDown() {
-  // Do stuff here
-  alert("You Back?!!!")
-      }
+function onBackButton(e){
+  //display popup
+  alert("You Back!!!")
+}
