@@ -30,8 +30,6 @@ selecteds.forEach(selected => {
   })
 })
 
-// -mt-32
-
-// <div class="user-selected">
-//                 <img src="./assets/paper-user.png" alt="" srcset="">
-//               </div>
+window.addEventListener('popstate', event => {
+  alert("You Back!!")
+})
