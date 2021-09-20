@@ -31,24 +31,37 @@
           </div>
         </div>
 
-        <div id="content-play" class="content-play hidden bg-white w-full top-0 absolute h-screen text-black flex flex-col justify-between items-center font-roboto">
+        <div id="content-play" class="content-play bg-white w-full top-0 absolute h-screen text-black flex flex-col justify-between items-center font-roboto">
           <div id="back" class="content-play__back text-sm mt-7 self-start ml-5">
             <img class="w-4" src="./assets/back.svg" alt="" srcset="">
           </div>
-          <div class="content-heading text-6xl text-center font-thin -mt-32">
-            <img class="w-40" src="./assets/paper-thumb.png" alt="" srcset="">
+          <div class="content-heading text-6xl text-center font-thin -mt-28">
+            <img class="w-28" src="./assets/paper-comp.png" alt="" srcset="">
           </div>
-          <div class="content-play__heading -mt-16">
+
+          <div class="content-play__results text-center -mt-10">
+            <div class="results-text flex">
+              <p class="font-roboto font-bold text-4xl mr-2">IT'S A DRAW </p><img src="./assets/draw.svg" alt="" srcset="">
+            </div>
+           <button class="btn-again bg-primary w-44 h-12 text-white rounded-lg mt-3">PLAY AGAIN</button>
+          </div>
+          <!-- <div class="content-play__heading -mt-16">
            <p class="font-bold text-5xl">Let’s play!</p>
+          </div> -->
+
+          <div class="content-play__user--selected mb-14">
+            <img class="w-28" src="./assets/rock-user.png" alt="" srcset="">
           </div>
-          <div class="content-play__user w-9/12 h-14 bg-white text-black text-center rounded-md mb-24 font-light">
+          
+          <!-- <div class="content-play__user w-9/12 h-14 bg-white text-black text-center rounded-md mb-24 font-light">
             <p class="font-light text-2xl -mt-10 mb-5">pick an option:</p>
             <div class="user-select flex justify-between">
-              <img src="./assets/thumb-paper.svg" alt="" srcset="">
-              <img src="./assets/thumb-rock.svg" alt="" srcset="">
-              <img src="./assets/thumb-scissors.svg" alt="" srcset="">
+              <img class="selected cursor-pointer" id="paper" src="./assets/thumb-paper.svg" alt="" srcset="">
+              <img class="selected cursor-pointer" id="rock" src="./assets/thumb-rock.svg" alt="" srcset="">
+              <img class="selected cursor-pointer" id="scissors" src="./assets/thumb-scissors.svg" alt="" srcset="">
             </div>
-          </div>
+          </div> -->
+
         </div>
       </div>
     </div>
