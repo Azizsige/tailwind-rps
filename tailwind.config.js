@@ -14,6 +14,9 @@ module.exports = {
       },
       colors: {
         'primary': '#9C27B0'
+      },
+      height: {
+        '44r': '44rem'
       }
     },
   },
