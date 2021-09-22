@@ -17,7 +17,7 @@ btnBack.addEventListener("click", function () {
 function getUserSelect(selected) {
   let userSelected = selected.target.id;
   const deleteTag = contentPlay_user.remove();
-  contentPlay_userSelected.innerHTML += `<img class="w-28" src="./assets/${userSelected}-user.png" alt="" srcset="">`;
+  contentPlay_userSelected.innerHTML += `<img class="w-28" src="./../../assets/${userSelected}-user.png" alt="" srcset="">`;
 
   // console.log(userSelected);
   return userSelected;
@@ -26,14 +26,14 @@ function getUserSelect(selected) {
 function getCompSelected() {
   const comp = Math.random();
   if (comp > 0.34) {
-    contentPlay_comp.src = "./assets/rock-comp.png";
+    contentPlay_comp.src = "./../../assets/rock-comp.png";
     return "rock";
   }
   if (comp >= 0.34 && comp < 0.67) {
-    contentPlay_comp.src = "./assets/paper-comp.png";
+    contentPlay_comp.src = "./../../assets/paper-comp.png";
     return "paper";
   }
-  contentPlay_comp.src = "./assets/scissors-comp.png";
+  contentPlay_comp.src = "./../../assets/scissors-comp.png";
   return "scissors";
 }
 
@@ -50,7 +50,7 @@ function playAgain(result) {
   const again = contentPlay_text.remove();
   contentPlay_results.innerHTML += `
   <div class="results-text flex">
-              <p class="font-roboto font-bold text-4xl mr-2 uppercase">IT'S A ${result} </p><img src="./assets/${result}.svg" alt="" srcset="">
+              <p class="font-roboto font-bold text-4xl mr-2 uppercase">IT'S A ${result} </p><img src="./../../assets/${result}.svg" alt="" srcset="">
             </div>
            <button onclick="location.reload()" class="btn-again bg-primary w-44 h-12 text-white rounded-lg mt-3">PLAY AGAIN</button>`;
 
@@ -66,7 +66,7 @@ selecteds.forEach((selected) => {
 
     playAgain(result)
 
-   btnClose.src = "./assets/close.svg"
+   btnClose.src = "./../../assets/close.svg"
 
     console.log(`user : ${userGame}`);
     console.log(`comp : ${computer}`);
