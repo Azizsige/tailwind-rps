@@ -11,7 +11,7 @@ const contentPlay_text = document.querySelector(".content-play__text");
 const contentPlay_results = document.querySelector(".content-play__results");
 
 btnBack.addEventListener("click", function () {
-  location.href = "./../../index.html";
+  location.href = "./../index.html";
 });
 
 function getUserSelect(selected) {
