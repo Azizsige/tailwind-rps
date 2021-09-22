@@ -832,10 +832,6 @@ video {
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
-.underline {
-  text-decoration: underline;
-}
-
 *, ::before, ::after {
   --tw-shadow: 0 0 #0000;
 }
