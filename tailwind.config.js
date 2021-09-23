@@ -1,10 +1,11 @@
 module.exports = {
+  mode: 'jit',
   purge: [
-    './**/*.html',
-    './public/**/*.html',
-    './src/**/*.js',
-    './assets/**/*.png',
-    './assets/**/*.svg',
+    './*.html',
+    './public/*.html',
+    './public/js/*.js',
+    './assets/*.png',
+    './assets/*.svg',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
