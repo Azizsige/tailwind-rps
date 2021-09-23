@@ -6,7 +6,7 @@ function welcome(){
   let count = 0;
 
   setInterval(function(){
-    imageThumb.setAttribute('src', `./assets/${image[count++]}-start.png`)
+    imageThumb.setAttribute('src', `./assets/thumb-${image[count++]}.png`)
       if(count == image.length) count = 0
     return;
   }, 700)
