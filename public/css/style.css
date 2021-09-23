@@ -478,6 +478,9 @@ video {
 .relative {
 	position: relative;
 }
+.top-80 {
+	top: 20rem;
+}
 .top-0 {
 	top: 0px;
 }
@@ -488,11 +491,11 @@ video {
 .mt-7 {
 	margin-top: 1.75rem;
 }
-.-mt-7 {
-	margin-top: -1.75rem;
+.-mt-80 {
+	margin-top: -20rem;
 }
-.mb-5 {
-	margin-bottom: 1.25rem;
+.-mb-80 {
+	margin-bottom: -20rem;
 }
 .ml-5 {
 	margin-left: 1.25rem;
@@ -514,6 +517,9 @@ video {
 }
 .-mt-10 {
 	margin-top: -2.5rem;
+}
+.mb-5 {
+	margin-bottom: 1.25rem;
 }
 .mr-2 {
 	margin-right: 0.5rem;

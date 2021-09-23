@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "postcss ./src/tailwind.css -o ./public/css/style.css TAILWIND_MODE=build",
+    "build:css": "postcss ./src/tailwind.css -o ./public/css/style.css TAILWIND_MODE=watch",
     "production:css": "postcss ./src/tailwind.css -o ./public/css/style.css TAILWIND_MODE=production"
   },
   "author": "azizsige",
